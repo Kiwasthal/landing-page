@@ -92,7 +92,7 @@ img {
     margin-top: 20px;
 }
 
-/* The text under the information images must be leveled */
+/* The text under the information images must be leveled , solved (kinda) -worked around*/
 
 .info-box {
     display: flex;
@@ -145,7 +145,7 @@ img {
     border-radius: 16px;
     justify-content: space-between;
     align-items: center;
-
+    margin-bottom: 100px;
 }
 
 .action {
@@ -166,3 +166,14 @@ img {
     font-weight: bold;
     border-radius: 24px;
 }
+
+.footer {
+    display: flex;
+    padding: 24px;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
