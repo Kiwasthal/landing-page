@@ -23,33 +23,58 @@
     gap: 8px;
     color: #E5E7EB;
     font-size: 24px;
-    margin-left: 250px;
+    margin-left: 500px;
 }
 
 .content-right {
     font-size: 18px;
     color: #E5E7EB;
-    margin-right: 250px;
+    margin-right: 500px;
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding-bottom: 150px;
    }
 
 .hero-left {
     display: flex;
     flex-wrap: wrap;  
-    margin-left: 250px; 
-    width: 500px;
+    margin-left: 500px; 
+    width: 300px;  
+    margin-right: 40px;  
+}
+.hero-right {
+    display: flex;
 }
 
+.top-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+.mid-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 button {
     background-color: #3882f6;
     border-radius: 12px;
     border: #3882f6;
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
 }
 .hero-right {
-    margin-right: 250px;
+    margin-right: 500px;
+    height: 250px;
+    border: #1d3538 solid 1px;
+    flex: auto;
+}   
+
+img {
+    width: 100%
 }
