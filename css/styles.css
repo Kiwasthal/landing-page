@@ -68,6 +68,7 @@ button {
     height: auto;
     margin-top: 20px;
     color: #E5E7EB;
+    font-weight: bold;
 }
 .hero-right {
     margin-right: 500px;
@@ -90,6 +91,8 @@ img {
     align-items: center;
     margin-top: 20px;
 }
+
+/* The text under the information images must be leveled */
 
 .info-box {
     display: flex;
@@ -131,5 +134,35 @@ img {
     padding: 0px 500px 200px 500px;
     font-weight: bold;
 }
+.bottom-container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: #3882f6;
+    padding: 42px;
+    border: #3882f6 solid 1px;
+    border-radius: 16px;
+    justify-content: space-between;
+    align-items: center;
 
+}
 
+.action {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.sub-action {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+#bottom-button {
+    border: #E5E7EB solid 4px;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 24px;
+}
