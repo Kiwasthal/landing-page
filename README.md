@@ -1,3 +1,3 @@
 # landing-page
-FLexbox project : Landing a page!
+Flexbox project : Landing a page!
 https://kiwasthal.github.io/landing-page/
